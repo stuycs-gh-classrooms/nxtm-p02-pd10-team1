@@ -2,25 +2,34 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=22153670)
 # NeXtCS Final Project
 ### Name 0: Eloise Dugdale
-### Name 1: OTHER NAME HERE (delete this line if not applicable)
-### Name 2: OTHER NAME HERE (delete this line if not applicable)
+### Name 1: Haley Heredia
 ---
 
 ### Project Description
-Provide a high-level description of your project. Include explanatory links if you think they will be helpful.
+This project will create a coloring game on the computer in which a scene is provided and the user can fill in shapes with certain colors, "building" a picture. This will use the DXF export library to create shapes with multiple triangles that can be color filled (https://processing.org/reference/libraries/dxf/index.html). 
+Plan: drawing in one box, color wheel in another. If a color is selected in the color wheel, that remains the fill color until a new color is selected. One class creates this wheel; one class creates the drawing grid.
 
 ### Skill Usage
-Explain what skills from this semester you will be using in this project, and how they will be used.
+We will be:
+- using processing to create a graphical program
+- using keyboard/mouse for input
+- using classes and methods (class for grid, class for color wheel)
+- using array to fill color wheel
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- r = red
+- g = green
+- b = blue
+- y = yellow
+- UP arrow = lighter color
+- DOWN arrow = darker color
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: program tracks mouse movement
+- Mouse pressed: selects "box" or shape
 
 
 ### Classes
