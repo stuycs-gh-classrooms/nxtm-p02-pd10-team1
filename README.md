@@ -34,3 +34,7 @@ Mouse Control:
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
+1. Class Canvas (grid on which to "paint") --> similar to the grid we used for the forest fire simulation.
+- methods: boolean selected? int colorVal, void display
+2. Class ColorPalatte (grid where you can select color to use)
+- methods: void display
